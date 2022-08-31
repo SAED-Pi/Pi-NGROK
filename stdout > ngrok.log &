@@ -1,0 +1,453 @@
+t=2022-08-30T12:47:43+0200 lvl=info msg="no configuration paths supplied"
+t=2022-08-30T12:47:43+0200 lvl=info msg="using configuration at default config path" path=/home/pi/.config/ngrok/ngrok.yml
+t=2022-08-30T12:47:43+0200 lvl=info msg="open config file" path=/home/pi/.config/ngrok/ngrok.yml err=nil
+t=2022-08-30T12:47:43+0200 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2022-08-30T12:47:44+0200 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2022-08-30T12:47:44+0200 lvl=info msg="client session established" obj=csess id=b52dbc12aeea
+t=2022-08-30T12:47:44+0200 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:88 url=https://76a5-146-232-65-143.eu.ngrok.io
+t=2022-08-30T12:47:48+0200 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context deadline exceeded"
+t=2022-08-30T12:49:11+0200 lvl=info msg="no configuration paths supplied"
+t=2022-08-30T12:49:11+0200 lvl=info msg="using configuration at default config path" path=/home/pi/.config/ngrok/ngrok.yml
+t=2022-08-30T12:49:11+0200 lvl=info msg="open config file" path=/home/pi/.config/ngrok/ngrok.yml err=nil
+t=2022-08-30T12:49:11+0200 lvl=warn msg="can't bind default web address, trying alternatives" obj=web addr=127.0.0.1:4040
+t=2022-08-30T12:49:11+0200 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4041
+t=2022-08-30T12:49:16+0200 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context deadline exceeded"
+t=2022-08-30T12:49:21+0200 lvl=eror msg="failed to reconnect session" obj=csess id=ef3a693c0d5c err="dial tcp: lookup tunnel.ngrok.com: i/o timeout"
+t=2022-08-30T12:49:21+0200 lvl=info msg=start pg=/status id=8a1f5ae1994a153f
+t=2022-08-30T12:49:21+0200 lvl=info msg=end pg=/status id=8a1f5ae1994a153f status=200 dur=2.078012ms
+t=2022-08-30T12:49:21+0200 lvl=info msg=start pg=/static/css/app.6adde81d4977beec56aa.css id=11e69b8083abb2ed
+t=2022-08-30T12:49:21+0200 lvl=info msg=start pg=/static/js/vendor.46a63b0dfb74468b4858.js id=28d1dea837be784b
+t=2022-08-30T12:49:21+0200 lvl=info msg=start pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=f9294b61c0a1c302
+t=2022-08-30T12:49:21+0200 lvl=info msg=end pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=f9294b61c0a1c302 status=200 dur=8.570643ms
+t=2022-08-30T12:49:21+0200 lvl=info msg=end pg=/static/css/app.6adde81d4977beec56aa.css id=11e69b8083abb2ed status=200 dur=44.13675ms
+t=2022-08-30T12:49:21+0200 lvl=info msg=start pg=/static/js/app.16e28a9160362ed56486.js id=1f7e421624becfa4
+t=2022-08-30T12:49:21+0200 lvl=info msg=end pg=/static/js/app.16e28a9160362ed56486.js id=1f7e421624becfa4 status=200 dur=37.063185ms
+t=2022-08-30T12:49:22+0200 lvl=info msg=end pg=/static/js/vendor.46a63b0dfb74468b4858.js id=28d1dea837be784b status=200 dur=169.892728ms
+t=2022-08-30T12:49:23+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=3f10e34cb2defe45
+t=2022-08-30T12:49:23+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=3f10e34cb2defe45 status=200 dur=6.129038ms
+t=2022-08-30T12:49:23+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=0d9a080a981f0e67
+t=2022-08-30T12:49:26+0200 lvl=eror msg="failed to reconnect session" obj=csess id=ef3a693c0d5c err="dial tcp: lookup tunnel.ngrok.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T12:49:27+0200 lvl=eror msg="failed to reconnect session" obj=csess id=ef3a693c0d5c err="Get \"https://dns.google.com/resolve?name=tunnel.ngrok.com&type=AAAA\": dial tcp: lookup dns.google.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable"
+t=2022-08-30T12:49:28+0200 lvl=eror msg="failed to reconnect session" obj=csess id=ef3a693c0d5c err="Get \"https://s3.amazonaws.com/dns.ngrok.com/tunnel.json\": dial tcp: lookup s3.amazonaws.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable"
+t=2022-08-30T12:49:29+0200 lvl=eror msg="heartbeat timeout, terminating session" obj=csess id=534d5fe748d1 clientid=5eef65a3696637c8130a8ad5264ece9b
+t=2022-08-30T12:49:29+0200 lvl=eror msg="session closed, starting reconnect loop" obj=csess id=b52dbc12aeea err="session closed"
+t=2022-08-30T12:49:29+0200 lvl=eror msg="failed to reconnect session" obj=csess id=b52dbc12aeea err="dial tcp: lookup tunnel.ngrok.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable"
+t=2022-08-30T12:49:29+0200 lvl=eror msg="failed to reconnect session" obj=csess id=b52dbc12aeea err="dial tcp: lookup tunnel.ngrok.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable"
+t=2022-08-30T12:49:30+0200 lvl=eror msg="failed to reconnect session" obj=csess id=ef3a693c0d5c err="resolved tunnel.ngrok.com has no records"
+t=2022-08-30T12:49:30+0200 lvl=eror msg="failed to reconnect session" obj=csess id=b52dbc12aeea err="Get \"https://dns.google.com/resolve?name=tunnel.ngrok.com&type=A\": dial tcp: lookup dns.google.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable"
+t=2022-08-30T12:49:31+0200 lvl=eror msg="failed to reconnect session" obj=csess id=b52dbc12aeea err="Get \"https://s3.amazonaws.com/dns.ngrok.com/tunnel.json\": dial tcp: lookup s3.amazonaws.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable"
+t=2022-08-30T12:49:32+0200 lvl=eror msg="failed to reconnect session" obj=csess id=ef3a693c0d5c err="dial tcp: lookup tunnel.ngrok.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable"
+t=2022-08-30T12:49:32+0200 lvl=eror msg="failed to reconnect session" obj=csess id=b52dbc12aeea err="resolved tunnel.ngrok.com has no records"
+t=2022-08-30T12:49:34+0200 lvl=eror msg="failed to reconnect session" obj=csess id=b52dbc12aeea err="dial tcp: lookup tunnel.ngrok.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable"
+t=2022-08-30T12:49:36+0200 lvl=eror msg="failed to reconnect session" obj=csess id=ef3a693c0d5c err="Get \"https://dns.google.com/resolve?name=tunnel.ngrok.com&type=AAAA\": dial tcp: lookup dns.google.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable"
+t=2022-08-30T12:49:37+0200 lvl=eror msg="failed to reconnect session" obj=csess id=b52dbc12aeea err="Get \"https://dns.google.com/resolve?name=tunnel.ngrok.com&type=AAAA\": dial tcp: lookup dns.google.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable"
+t=2022-08-30T12:49:43+0200 lvl=eror msg="failed to reconnect session" obj=csess id=ef3a693c0d5c err="jsonHTTP.Lookup: No such host: tunnel.ngrok.com"
+t=2022-08-30T12:49:43+0200 lvl=eror msg="failed to reconnect session" obj=csess id=b52dbc12aeea err="jsonHTTP.Lookup: No such host: tunnel.ngrok.com"
+t=2022-08-30T12:49:49+0200 lvl=eror msg="failed to reconnect session" obj=csess id=b52dbc12aeea err="resolved tunnel.ngrok.com has no records"
+t=2022-08-30T12:49:51+0200 lvl=eror msg="failed to reconnect session" obj=csess id=ef3a693c0d5c err="resolved tunnel.ngrok.com has no records"
+t=2022-08-30T12:49:54+0200 lvl=info msg=start pg=/status id=525de86928d9cc76
+t=2022-08-30T12:49:54+0200 lvl=info msg=end pg=/status id=525de86928d9cc76 status=200 dur=994.947µs
+t=2022-08-30T12:49:54+0200 lvl=info msg=start pg=/static/css/app.6adde81d4977beec56aa.css id=d29e350aa2af2f1b
+t=2022-08-30T12:49:54+0200 lvl=info msg=end pg=/static/css/app.6adde81d4977beec56aa.css id=d29e350aa2af2f1b status=304 dur=6.613536ms
+t=2022-08-30T12:49:54+0200 lvl=info msg=start pg=/static/js/vendor.46a63b0dfb74468b4858.js id=489b21792a5046fd
+t=2022-08-30T12:49:54+0200 lvl=info msg=start pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=b61f7477effeb851
+t=2022-08-30T12:49:54+0200 lvl=info msg=end pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=b61f7477effeb851 status=304 dur=3.045206ms
+t=2022-08-30T12:49:54+0200 lvl=info msg=start pg=/static/js/app.16e28a9160362ed56486.js id=5380b2ef9b23c765
+t=2022-08-30T12:49:54+0200 lvl=info msg=end pg=/static/js/app.16e28a9160362ed56486.js id=5380b2ef9b23c765 status=304 dur=13.127696ms
+t=2022-08-30T12:49:55+0200 lvl=info msg=end pg=/static/js/vendor.46a63b0dfb74468b4858.js id=489b21792a5046fd status=304 dur=182.060609ms
+t=2022-08-30T12:49:55+0200 lvl=info msg=end pg=/grpc/agent.Web/State id=0d9a080a981f0e67 status=200 dur=31.907163532s
+t=2022-08-30T12:49:55+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=08fd7a0130bbedfe
+t=2022-08-30T12:49:55+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=08fd7a0130bbedfe status=200 dur=2.066301ms
+t=2022-08-30T12:49:55+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=f54b44975b56a1b1
+t=2022-08-30T12:49:56+0200 lvl=info msg=start pg=/static/favicon.ico id=d9f2477f7abb7cc3
+t=2022-08-30T12:49:56+0200 lvl=info msg=end pg=/static/favicon.ico id=d9f2477f7abb7cc3 status=200 dur=1.020936ms
+t=2022-08-30T12:49:59+0200 lvl=info msg=start pg=/status id=dd101b75acd76acd
+t=2022-08-30T12:49:59+0200 lvl=info msg=end pg=/status id=dd101b75acd76acd status=200 dur=822.551µs
+t=2022-08-30T12:50:00+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=1d43afd8776987ad
+t=2022-08-30T12:50:00+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=1d43afd8776987ad status=200 dur=2.17682ms
+t=2022-08-30T12:50:00+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=02fb2a7a2688af38
+t=2022-08-30T12:50:00+0200 lvl=info msg=end pg=/grpc/agent.Web/State id=f54b44975b56a1b1 status=200 dur=4.819735074s
+t=2022-08-30T12:50:00+0200 lvl=info msg=start pg=/static/favicon.ico id=c973316eb3edede2
+t=2022-08-30T12:50:00+0200 lvl=info msg=end pg=/static/favicon.ico id=c973316eb3edede2 status=200 dur=11.475198ms
+t=2022-08-30T12:50:01+0200 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2022-08-30T12:50:02+0200 lvl=info msg="client session established" obj=csess id=b52dbc12aeea
+t=2022-08-30T12:50:02+0200 lvl=eror msg="failed to auth" obj=tunnels.session err="Your account is limited to 1 simultaneous ngrok agent session.\nActive ngrok agent sessions in region 'eu':\n  - ts_2E4Z1Q0Eh1EuvKdXYZioLdS2bRt (146.232.65.143)\r\n\r\nERR_NGROK_108\r\n"
+t=2022-08-30T12:50:02+0200 lvl=eror msg="failed to reconnect session" obj=csess id=ef3a693c0d5c err="Your account is limited to 1 simultaneous ngrok agent session.\nActive ngrok agent sessions in region 'eu':\n  - ts_2E4Z1Q0Eh1EuvKdXYZioLdS2bRt (146.232.65.143)\r\n\r\nERR_NGROK_108\r\n"
+t=2022-08-30T12:50:02+0200 lvl=eror msg="session closing" obj=tunnels.session err="Your account is limited to 1 simultaneous ngrok agent session.\nActive ngrok agent sessions in region 'eu':\n  - ts_2E4Z1Q0Eh1EuvKdXYZioLdS2bRt (146.232.65.143)\r\n\r\nERR_NGROK_108\r\n"
+t=2022-08-30T12:50:02+0200 lvl=info msg="received stop request" obj=app stopReq="{err:0x2ca8240 restart:false}"
+t=2022-08-30T12:50:02+0200 lvl=eror msg="terminating with error" obj=app err="Your account is limited to 1 simultaneous ngrok agent session.\nActive ngrok agent sessions in region 'eu':\n  - ts_2E4Z1Q0Eh1EuvKdXYZioLdS2bRt (146.232.65.143)\r\n\r\nERR_NGROK_108\r\n"
+t=2022-08-30T12:50:02+0200 lvl=crit msg="command failed" err="Your account is limited to 1 simultaneous ngrok agent session.\nActive ngrok agent sessions in region 'eu':\n  - ts_2E4Z1Q0Eh1EuvKdXYZioLdS2bRt (146.232.65.143)\r\n\r\nERR_NGROK_108\r\n"
+t=2022-08-30T12:50:05+0200 lvl=info msg=start pg=/status id=6f047382e619e36b
+t=2022-08-30T12:50:05+0200 lvl=info msg=end pg=/status id=6f047382e619e36b status=200 dur=742.656µs
+t=2022-08-30T12:50:06+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=3b40a44dd6f21876
+t=2022-08-30T12:50:06+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=3b40a44dd6f21876 status=200 dur=1.687342ms
+t=2022-08-30T12:50:06+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=841e620662eadbe2
+t=2022-08-30T12:50:06+0200 lvl=info msg=start pg=/static/favicon.ico id=2e48785fb0d671da
+t=2022-08-30T12:50:06+0200 lvl=info msg=end pg=/static/favicon.ico id=2e48785fb0d671da status=200 dur=1.602811ms
+t=2022-08-30T12:50:06+0200 lvl=info msg=end pg=/grpc/agent.Web/State id=02fb2a7a2688af38 status=200 dur=6.025234011s
+t=2022-08-30T12:50:11+0200 lvl=info msg=start pg=/status id=c30b3034107696b9
+t=2022-08-30T12:50:11+0200 lvl=info msg=end pg=/status id=c30b3034107696b9 status=200 dur=1.288019ms
+t=2022-08-30T12:50:11+0200 lvl=info msg=start pg=/static/css/app.6adde81d4977beec56aa.css id=5acc1dc982a524a3
+t=2022-08-30T12:50:11+0200 lvl=info msg=end pg=/static/css/app.6adde81d4977beec56aa.css id=5acc1dc982a524a3 status=304 dur=6.510671ms
+t=2022-08-30T12:50:11+0200 lvl=info msg=start pg=/static/js/vendor.46a63b0dfb74468b4858.js id=5879c2ef87da3099
+t=2022-08-30T12:50:11+0200 lvl=info msg=start pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=55bb78f57ea73422
+t=2022-08-30T12:50:11+0200 lvl=info msg=start pg=/static/js/app.16e28a9160362ed56486.js id=97d0ddfe08e6a19a
+t=2022-08-30T12:50:11+0200 lvl=info msg=end pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=55bb78f57ea73422 status=304 dur=2.478123ms
+t=2022-08-30T12:50:11+0200 lvl=info msg=end pg=/static/js/app.16e28a9160362ed56486.js id=97d0ddfe08e6a19a status=304 dur=19.454514ms
+t=2022-08-30T12:50:11+0200 lvl=info msg=end pg=/static/js/vendor.46a63b0dfb74468b4858.js id=5879c2ef87da3099 status=304 dur=153.551009ms
+t=2022-08-30T12:50:12+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=78e97a17da2671d9
+t=2022-08-30T12:50:12+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=78e97a17da2671d9 status=200 dur=2.019477ms
+t=2022-08-30T12:50:12+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=7ee9feaeee754493
+t=2022-08-30T12:50:12+0200 lvl=info msg=end pg=/grpc/agent.Web/State id=841e620662eadbe2 status=200 dur=6.236172021s
+t=2022-08-30T12:50:12+0200 lvl=info msg=start pg=/static/favicon.ico id=00e64947f6ac8008
+t=2022-08-30T12:50:12+0200 lvl=info msg=end pg=/static/favicon.ico id=00e64947f6ac8008 status=200 dur=1.962134ms
+t=2022-08-30T12:50:14+0200 lvl=info msg=start pg=/status id=924b505222105365
+t=2022-08-30T12:50:14+0200 lvl=info msg=end pg=/status id=924b505222105365 status=200 dur=727.916µs
+t=2022-08-30T12:50:15+0200 lvl=info msg=end pg=/grpc/agent.Web/State id=7ee9feaeee754493 status=200 dur=3.165713518s
+t=2022-08-30T12:50:15+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=ceeaba8e5f543638
+t=2022-08-30T12:50:15+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=ceeaba8e5f543638 status=200 dur=3.279373ms
+t=2022-08-30T12:50:15+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=5f5c93a274071377
+t=2022-08-30T12:50:15+0200 lvl=info msg=start pg=/static/favicon.ico id=a36feaf5dd9ddde1
+t=2022-08-30T12:50:15+0200 lvl=info msg=end pg=/static/favicon.ico id=a36feaf5dd9ddde1 status=200 dur=1.215988ms
+t=2022-08-30T12:50:23+0200 lvl=warn msg="failed to open private leg" id=b833b7b18938 privaddr=localhost:88 err="dial tcp [::1]:88: connect: connection refused"
+t=2022-08-30T12:50:26+0200 lvl=warn msg="failed to open private leg" id=16fab00fa410 privaddr=localhost:88 err="dial tcp [::1]:88: connect: connection refused"
+t=2022-08-30T12:50:27+0200 lvl=info msg=start pg=/static/assets/be810be3a3e14c682a25.woff2 id=28b2f827078442df
+t=2022-08-30T12:50:27+0200 lvl=info msg=end pg=/static/assets/be810be3a3e14c682a25.woff2 id=28b2f827078442df status=200 dur=1.480155ms
+t=2022-08-30T12:50:47+0200 lvl=info msg=start pg=/inspect/http id=5644b13a954ad630
+t=2022-08-30T12:50:47+0200 lvl=info msg=end pg=/inspect/http id=5644b13a954ad630 status=200 dur=1.282342ms
+t=2022-08-30T12:50:47+0200 lvl=info msg=end pg=/grpc/agent.Web/State id=5f5c93a274071377 status=200 dur=31.909079721s
+t=2022-08-30T12:50:47+0200 lvl=info msg=start pg=/static/css/app.6adde81d4977beec56aa.css id=8ebe738d64c295c3
+t=2022-08-30T12:50:47+0200 lvl=info msg=start pg=/static/js/vendor.46a63b0dfb74468b4858.js id=d67ca323afd5d8c6
+t=2022-08-30T12:50:47+0200 lvl=info msg=start pg=/static/js/app.16e28a9160362ed56486.js id=8e3f1aa7cc956f52
+t=2022-08-30T12:50:47+0200 lvl=info msg=start pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=91ba902b55832429
+t=2022-08-30T12:50:47+0200 lvl=info msg=end pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=91ba902b55832429 status=304 dur=4.252497ms
+t=2022-08-30T12:50:47+0200 lvl=info msg=end pg=/static/css/app.6adde81d4977beec56aa.css id=8ebe738d64c295c3 status=304 dur=7.35515ms
+t=2022-08-30T12:50:47+0200 lvl=info msg=end pg=/static/js/app.16e28a9160362ed56486.js id=8e3f1aa7cc956f52 status=304 dur=26.9655ms
+t=2022-08-30T12:50:47+0200 lvl=info msg=end pg=/static/js/vendor.46a63b0dfb74468b4858.js id=d67ca323afd5d8c6 status=304 dur=160.233053ms
+t=2022-08-30T12:50:48+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=2f2f415ffc743ef9
+t=2022-08-30T12:50:48+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=2f2f415ffc743ef9 status=200 dur=3.380258ms
+t=2022-08-30T12:50:48+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=4ffd3afcf083cd90
+t=2022-08-30T12:50:49+0200 lvl=info msg=start pg=/static/favicon.ico id=09286af28925d503
+t=2022-08-30T12:50:49+0200 lvl=info msg=end pg=/static/favicon.ico id=09286af28925d503 status=200 dur=1.461301ms
+t=2022-08-30T12:50:56+0200 lvl=info msg=start pg=/ id=bc6bfc60319eb030
+t=2022-08-30T12:50:56+0200 lvl=info msg=end pg=/ id=bc6bfc60319eb030 status=302 dur=417.499µs
+t=2022-08-30T12:50:56+0200 lvl=info msg=start pg=/inspect/http id=946dc13e95c6effd
+t=2022-08-30T12:50:56+0200 lvl=info msg=end pg=/inspect/http id=946dc13e95c6effd status=200 dur=1.293072ms
+t=2022-08-30T12:50:57+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=f55df82ff161f65c
+t=2022-08-30T12:50:57+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=f55df82ff161f65c status=200 dur=3.009216ms
+t=2022-08-30T12:50:57+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=da5ccc52aeb53c15
+t=2022-08-30T12:50:57+0200 lvl=info msg=end pg=/grpc/agent.Web/State id=4ffd3afcf083cd90 status=200 dur=9.238923541s
+t=2022-08-30T12:51:16+0200 lvl=eror msg="heartbeat timeout, terminating session" obj=csess id=adfa7ba3d13a clientid=5eef65a3696637c8130a8ad5264ece9b
+t=2022-08-30T12:51:16+0200 lvl=eror msg="session closed, starting reconnect loop" obj=csess id=b52dbc12aeea err="session closed"
+t=2022-08-30T12:51:17+0200 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2022-08-30T12:51:18+0200 lvl=info msg="client session established" obj=csess id=b52dbc12aeea
+t=2022-08-30T12:53:03+0200 lvl=info msg=start pg=/status id=ce3badd8cc8bcccf
+t=2022-08-30T12:53:03+0200 lvl=info msg=end pg=/status id=ce3badd8cc8bcccf status=200 dur=1.984322ms
+t=2022-08-30T12:53:03+0200 lvl=info msg=start pg=/static/css/app.6adde81d4977beec56aa.css id=9a069cc77a347bc2
+t=2022-08-30T12:53:03+0200 lvl=info msg=end pg=/static/css/app.6adde81d4977beec56aa.css id=9a069cc77a347bc2 status=304 dur=6.703903ms
+t=2022-08-30T12:53:03+0200 lvl=info msg=start pg=/static/js/vendor.46a63b0dfb74468b4858.js id=6c100a009f3c5bb2
+t=2022-08-30T12:53:03+0200 lvl=info msg=start pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=d56f63b4f2d01bb8
+t=2022-08-30T12:53:03+0200 lvl=info msg=end pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=d56f63b4f2d01bb8 status=304 dur=3.319321ms
+t=2022-08-30T12:53:03+0200 lvl=info msg=start pg=/static/js/app.16e28a9160362ed56486.js id=c13d9885546be403
+t=2022-08-30T12:53:03+0200 lvl=info msg=end pg=/static/js/app.16e28a9160362ed56486.js id=c13d9885546be403 status=304 dur=35.054619ms
+t=2022-08-30T12:53:03+0200 lvl=info msg=end pg=/grpc/agent.Web/State id=da5ccc52aeb53c15 status=200 dur=2m6.065947279s
+t=2022-08-30T12:53:03+0200 lvl=info msg=end pg=/static/js/vendor.46a63b0dfb74468b4858.js id=6c100a009f3c5bb2 status=304 dur=191.127309ms
+t=2022-08-30T12:53:04+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=fb89d900d53d60c6
+t=2022-08-30T12:53:04+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=fb89d900d53d60c6 status=200 dur=3.340988ms
+t=2022-08-30T12:53:04+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=ed7a16bfcf09311a
+t=2022-08-30T12:53:04+0200 lvl=info msg=start pg=/static/favicon.ico id=242897b7dd4cfc7a
+t=2022-08-30T12:53:04+0200 lvl=info msg=end pg=/static/favicon.ico id=242897b7dd4cfc7a status=200 dur=927.708µs
+t=2022-08-30T13:02:57+0200 lvl=info msg="no configuration paths supplied"
+t=2022-08-30T13:02:57+0200 lvl=info msg="using configuration at default config path" path=/home/pi/.config/ngrok/ngrok.yml
+t=2022-08-30T13:02:57+0200 lvl=info msg="open config file" path=/home/pi/.config/ngrok/ngrok.yml err=nil
+t=2022-08-30T13:02:57+0200 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2022-08-30T13:02:58+0200 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2022-08-30T13:02:58+0200 lvl=info msg="client session established" obj=csess id=030b77d596d7
+t=2022-08-30T13:02:58+0200 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8080 url=https://6298-146-232-65-143.eu.ngrok.io
+t=2022-08-30T13:04:12+0200 lvl=info msg="join connections" obj=join id=6e9d42c414ba l=127.0.0.1:8080 r=146.232.65.143:56030
+t=2022-08-30T13:04:13+0200 lvl=info msg="join connections" obj=join id=76d9553b2c46 l=127.0.0.1:8080 r=146.232.65.143:56033
+t=2022-08-30T13:04:34+0200 lvl=info msg="join connections" obj=join id=4ee265724efd l=127.0.0.1:8080 r=146.232.65.143:56030
+t=2022-08-30T13:28:34+0200 lvl=info msg=start pg=/ id=fb7e77d2f35db1a9
+t=2022-08-30T13:28:34+0200 lvl=info msg=end pg=/ id=fb7e77d2f35db1a9 status=302 dur=13.638483ms
+t=2022-08-30T13:28:34+0200 lvl=info msg=start pg=/inspect/http id=e4f136bc750358e4
+t=2022-08-30T13:28:34+0200 lvl=info msg=end pg=/inspect/http id=e4f136bc750358e4 status=200 dur=13.744054ms
+t=2022-08-30T13:28:34+0200 lvl=info msg=start pg=/static/css/app.6adde81d4977beec56aa.css id=c248aa9ea4834b25
+t=2022-08-30T13:28:34+0200 lvl=info msg=start pg=/static/js/vendor.46a63b0dfb74468b4858.js id=91617dcedac29da7
+t=2022-08-30T13:28:34+0200 lvl=info msg=start pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=0edbc0b18cfcae07
+t=2022-08-30T13:28:34+0200 lvl=info msg=start pg=/static/js/app.16e28a9160362ed56486.js id=d68dc57811e86a5b
+t=2022-08-30T13:28:34+0200 lvl=info msg=end pg=/static/css/app.6adde81d4977beec56aa.css id=c248aa9ea4834b25 status=200 dur=69.372186ms
+t=2022-08-30T13:28:34+0200 lvl=info msg=end pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=0edbc0b18cfcae07 status=200 dur=21.829834ms
+t=2022-08-30T13:28:34+0200 lvl=info msg=end pg=/static/js/app.16e28a9160362ed56486.js id=d68dc57811e86a5b status=200 dur=42.393963ms
+t=2022-08-30T13:28:34+0200 lvl=info msg=end pg=/static/js/vendor.46a63b0dfb74468b4858.js id=91617dcedac29da7 status=200 dur=168.350773ms
+t=2022-08-30T13:28:36+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=7f167fb0e51a4a2b
+t=2022-08-30T13:28:36+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=dc62d94ee6f42a21
+t=2022-08-30T13:28:36+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=7f167fb0e51a4a2b status=200 dur=35.679775ms
+t=2022-08-30T13:28:38+0200 lvl=info msg=start pg=/static/assets/be810be3a3e14c682a25.woff2 id=4c276c68d277d5c8
+t=2022-08-30T13:28:38+0200 lvl=info msg=end pg=/static/assets/be810be3a3e14c682a25.woff2 id=4c276c68d277d5c8 status=200 dur=4.006485ms
+t=2022-08-30T13:44:26+0200 lvl=info msg=start pg=/grpc/agent.Web/Clear id=50589e25399911cc
+t=2022-08-30T13:44:26+0200 lvl=info msg=end pg=/grpc/agent.Web/Clear id=50589e25399911cc status=200 dur=4.388411ms
+t=2022-08-30T13:17:45+0200 lvl=info msg="no configuration paths supplied"
+t=2022-08-30T13:17:45+0200 lvl=info msg="using configuration at default config path" path=/home/pi/.config/ngrok/ngrok.yml
+t=2022-08-30T13:17:45+0200 lvl=info msg="open config file" path=/home/pi/.config/ngrok/ngrok.yml err=nil
+t=2022-08-30T13:17:45+0200 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2022-08-30T13:17:55+0200 lvl=eror msg="failed to reconnect session" obj=csess id=d81d391bb1bc err="dial tcp: lookup tunnel.ngrok.com: i/o timeout"
+t=2022-08-30T13:17:56+0200 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2022-08-30T13:17:56+0200 lvl=info msg="client session established" obj=csess id=d81d391bb1bc
+t=2022-08-30T13:17:56+0200 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8080 url=https://f053-146-232-65-143.eu.ngrok.io
+t=2022-08-30T13:18:01+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=ca70298eeb770263
+t=2022-08-30T13:18:01+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=ca70298eeb770263 status=200 dur=9.655209ms
+t=2022-08-30T13:18:01+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=d52204d8fb89bb24
+t=2022-08-30T13:49:39+0200 lvl=info msg="no configuration paths supplied"
+t=2022-08-30T13:49:39+0200 lvl=info msg="using configuration at default config path" path=/home/pi/.config/ngrok/ngrok.yml
+t=2022-08-30T13:49:39+0200 lvl=info msg="open config file" path=/home/pi/.config/ngrok/ngrok.yml err=nil
+t=2022-08-30T13:49:39+0200 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2022-08-30T13:49:39+0200 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2022-08-30T13:49:39+0200 lvl=info msg="client session established" obj=csess id=32c759f5f230
+t=2022-08-30T13:49:40+0200 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=//localhost:8080 url=tcp://0.tcp.eu.ngrok.io:16882
+t=2022-08-30T13:50:06+0200 lvl=info msg=start pg=/static/css/app.6adde81d4977beec56aa.css id=af97159f1d259ccf
+t=2022-08-30T13:50:06+0200 lvl=info msg=end pg=/static/css/app.6adde81d4977beec56aa.css id=af97159f1d259ccf status=200 dur=58.033114ms
+t=2022-08-30T13:50:06+0200 lvl=info msg=start pg=/static/js/vendor.46a63b0dfb74468b4858.js id=a10e1bf435635afa
+t=2022-08-30T13:50:06+0200 lvl=info msg=start pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=32a33d45c984d099
+t=2022-08-30T13:50:06+0200 lvl=info msg=end pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=32a33d45c984d099 status=200 dur=8.061671ms
+t=2022-08-30T13:50:06+0200 lvl=info msg=start pg=/static/js/app.16e28a9160362ed56486.js id=c2c7136026c0e324
+t=2022-08-30T13:50:06+0200 lvl=info msg=end pg=/static/js/app.16e28a9160362ed56486.js id=c2c7136026c0e324 status=200 dur=13.510251ms
+t=2022-08-30T13:50:06+0200 lvl=info msg=end pg=/static/js/vendor.46a63b0dfb74468b4858.js id=a10e1bf435635afa status=200 dur=194.219328ms
+t=2022-08-30T13:50:08+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=cd974b8340e98a86
+t=2022-08-30T13:50:08+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=cd974b8340e98a86 status=200 dur=6.209262ms
+t=2022-08-30T13:50:08+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=7250807f8afc3833
+t=2022-08-30T13:50:55+0200 lvl=warn msg="failed to open private leg" id=acbd391f1b1f typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T13:51:30+0200 lvl=warn msg="failed to open private leg" id=4c05d530df25 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T13:53:26+0200 lvl=info msg=start pg=/status id=f89b76f65859991b
+t=2022-08-30T13:53:26+0200 lvl=info msg=end pg=/status id=f89b76f65859991b status=200 dur=3.995798ms
+t=2022-08-30T13:53:27+0200 lvl=info msg=start pg=/static/css/app.6adde81d4977beec56aa.css id=12620b30c20ed1ee
+t=2022-08-30T13:53:27+0200 lvl=info msg=end pg=/static/css/app.6adde81d4977beec56aa.css id=12620b30c20ed1ee status=304 dur=6.672442ms
+t=2022-08-30T13:53:27+0200 lvl=info msg=start pg=/static/js/vendor.46a63b0dfb74468b4858.js id=efba544c1f8b53c7
+t=2022-08-30T13:53:27+0200 lvl=info msg=start pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=1355585824f2018b
+t=2022-08-30T13:53:27+0200 lvl=info msg=start pg=/static/js/app.16e28a9160362ed56486.js id=c80ae0285e10331a
+t=2022-08-30T13:53:27+0200 lvl=info msg=end pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=1355585824f2018b status=304 dur=4.626678ms
+t=2022-08-30T13:53:27+0200 lvl=info msg=end pg=/static/js/app.16e28a9160362ed56486.js id=c80ae0285e10331a status=304 dur=23.568855ms
+t=2022-08-30T13:53:27+0200 lvl=info msg=end pg=/grpc/agent.Web/State id=7250807f8afc3833 status=200 dur=3m18.787068431s
+t=2022-08-30T13:53:27+0200 lvl=info msg=end pg=/static/js/vendor.46a63b0dfb74468b4858.js id=efba544c1f8b53c7 status=304 dur=208.369465ms
+t=2022-08-30T13:53:29+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=d8a83208dc66baf3
+t=2022-08-30T13:53:29+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=d8a83208dc66baf3 status=200 dur=3.912674ms
+t=2022-08-30T13:53:29+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=1029634fbd9936c8
+t=2022-08-30T13:53:29+0200 lvl=info msg=start pg=/static/favicon.ico id=d3953917ca6d6642
+t=2022-08-30T13:53:29+0200 lvl=info msg=end pg=/static/favicon.ico id=d3953917ca6d6642 status=200 dur=1.531184ms
+t=2022-08-30T13:53:46+0200 lvl=warn msg="failed to open private leg" id=a1169a0eea66 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T13:55:55+0200 lvl=warn msg="failed to open private leg" id=7b8be3f2deb7 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T13:57:43+0200 lvl=warn msg="failed to open private leg" id=47aa006ffd4a typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T14:00:20+0200 lvl=warn msg="failed to open private leg" id=9d1155af911b typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T14:00:45+0200 lvl=warn msg="failed to open private leg" id=458ea3dabc3b typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T14:03:14+0200 lvl=info msg="no configuration paths supplied"
+t=2022-08-30T14:03:14+0200 lvl=info msg="using configuration at default config path" path=/home/pi/.config/ngrok/ngrok.yml
+t=2022-08-30T14:03:14+0200 lvl=info msg="open config file" path=/home/pi/.config/ngrok/ngrok.yml err=nil
+t=2022-08-30T14:03:14+0200 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2022-08-30T14:03:15+0200 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2022-08-30T14:03:15+0200 lvl=info msg="client session established" obj=csess id=3e0be011eb8f
+t=2022-08-30T14:03:15+0200 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=//localhost:8080 url=tcp://7.tcp.eu.ngrok.io:14712
+t=2022-08-30T14:03:31+0200 lvl=info msg=start pg=/static/css/app.6adde81d4977beec56aa.css id=c4b9755ff41c99cb
+t=2022-08-30T14:03:31+0200 lvl=info msg=start pg=/static/js/vendor.46a63b0dfb74468b4858.js id=aa9a1912f08d2f1a
+t=2022-08-30T14:03:31+0200 lvl=info msg=start pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=250f29409f98b08a
+t=2022-08-30T14:03:31+0200 lvl=info msg=end pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=250f29409f98b08a status=200 dur=60.306565ms
+t=2022-08-30T14:03:31+0200 lvl=info msg=end pg=/static/css/app.6adde81d4977beec56aa.css id=c4b9755ff41c99cb status=200 dur=81.22338ms
+t=2022-08-30T14:03:31+0200 lvl=info msg=start pg=/static/js/app.16e28a9160362ed56486.js id=df7009602871c1d1
+t=2022-08-30T14:03:31+0200 lvl=info msg=end pg=/static/js/app.16e28a9160362ed56486.js id=df7009602871c1d1 status=200 dur=34.380006ms
+t=2022-08-30T14:03:31+0200 lvl=info msg=end pg=/static/js/vendor.46a63b0dfb74468b4858.js id=aa9a1912f08d2f1a status=200 dur=197.854769ms
+t=2022-08-30T14:03:34+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=ecfb83389fb2e3d1
+t=2022-08-30T14:03:34+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=ecfb83389fb2e3d1 status=200 dur=6.58092ms
+t=2022-08-30T14:03:34+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=b969cd0d428a216d
+t=2022-08-30T14:03:58+0200 lvl=warn msg="failed to open private leg" id=dba6d558c644 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T14:07:11+0200 lvl=warn msg="failed to open private leg" id=96746b2f1132 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T14:09:15+0200 lvl=warn msg="failed to open private leg" id=8417278f41d8 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T14:09:22+0200 lvl=warn msg="failed to open private leg" id=97499b8498aa typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T14:12:48+0200 lvl=warn msg="failed to open private leg" id=f9b65d5c393b typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T13:19:11+0200 lvl=info msg="no configuration paths supplied"
+t=2022-08-30T13:19:11+0200 lvl=info msg="using configuration at default config path" path=/home/pi/.config/ngrok/ngrok.yml
+t=2022-08-30T13:19:11+0200 lvl=info msg="open config file" path=/home/pi/.config/ngrok/ngrok.yml err=nil
+t=2022-08-30T13:19:11+0200 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2022-08-30T13:19:12+0200 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2022-08-30T13:19:12+0200 lvl=info msg="client session established" obj=csess id=7c5ce310068b
+t=2022-08-30T13:19:12+0200 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=//localhost:8080 url=tcp://4.tcp.eu.ngrok.io:17320
+t=2022-08-30T13:19:25+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=86d3c5dea0cb78aa
+t=2022-08-30T13:19:25+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=0d8e60fdcd349d55
+t=2022-08-30T13:19:25+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=86d3c5dea0cb78aa status=200 dur=9.240313ms
+t=2022-08-30T22:01:20+0200 lvl=info msg="no configuration paths supplied"
+t=2022-08-30T22:01:20+0200 lvl=info msg="using configuration at default config path" path=/home/pi/.config/ngrok/ngrok.yml
+t=2022-08-30T22:01:20+0200 lvl=info msg="open config file" path=/home/pi/.config/ngrok/ngrok.yml err=nil
+t=2022-08-30T22:01:20+0200 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2022-08-30T22:01:21+0200 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2022-08-30T22:01:21+0200 lvl=info msg="client session established" obj=csess id=4379edb69c77
+t=2022-08-30T22:01:22+0200 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=//localhost:8080 url=tcp://4.tcp.eu.ngrok.io:13922
+t=2022-08-30T22:01:49+0200 lvl=info msg=start pg=/static/css/app.6adde81d4977beec56aa.css id=fbd8b72394e4ca66
+t=2022-08-30T22:01:49+0200 lvl=info msg=end pg=/static/css/app.6adde81d4977beec56aa.css id=fbd8b72394e4ca66 status=200 dur=59.69712ms
+t=2022-08-30T22:01:49+0200 lvl=info msg=start pg=/static/js/vendor.46a63b0dfb74468b4858.js id=d98aa0d1ed0fc9d3
+t=2022-08-30T22:01:49+0200 lvl=info msg=start pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=001ad9395f4d0427
+t=2022-08-30T22:01:49+0200 lvl=info msg=end pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=001ad9395f4d0427 status=200 dur=3.276296ms
+t=2022-08-30T22:01:49+0200 lvl=info msg=start pg=/static/js/app.16e28a9160362ed56486.js id=caabea63ba6d740a
+t=2022-08-30T22:01:49+0200 lvl=info msg=end pg=/static/js/app.16e28a9160362ed56486.js id=caabea63ba6d740a status=200 dur=22.687299ms
+t=2022-08-30T22:01:49+0200 lvl=info msg=end pg=/static/js/vendor.46a63b0dfb74468b4858.js id=d98aa0d1ed0fc9d3 status=200 dur=217.990918ms
+t=2022-08-30T22:01:52+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=131835997cfb3a0b
+t=2022-08-30T22:01:52+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=131835997cfb3a0b status=200 dur=10.360719ms
+t=2022-08-30T22:01:52+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=a347812787d40233
+t=2022-08-30T22:03:06+0200 lvl=warn msg="failed to open private leg" id=a9a6f81b3b04 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T22:06:11+0200 lvl=warn msg="failed to open private leg" id=36cd1048fdfe typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T22:07:22+0200 lvl=warn msg="failed to open private leg" id=3e4c51a331bd typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T22:07:44+0200 lvl=warn msg="failed to open private leg" id=a7adc36ee4f3 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T22:08:07+0200 lvl=info msg=start pg=/ id=298d54e1ec98edab
+t=2022-08-30T22:08:07+0200 lvl=info msg=end pg=/ id=298d54e1ec98edab status=302 dur=577.968µs
+t=2022-08-30T22:08:08+0200 lvl=info msg=start pg=/inspect/http id=a60853afa060d6a3
+t=2022-08-30T22:08:08+0200 lvl=info msg=end pg=/inspect/http id=a60853afa060d6a3 status=200 dur=3.23625ms
+t=2022-08-30T22:08:08+0200 lvl=info msg=start pg=/static/css/app.6adde81d4977beec56aa.css id=1ad97d78302fb186
+t=2022-08-30T22:08:08+0200 lvl=info msg=end pg=/static/css/app.6adde81d4977beec56aa.css id=1ad97d78302fb186 status=304 dur=8.555885ms
+t=2022-08-30T22:08:08+0200 lvl=info msg=end pg=/grpc/agent.Web/State id=a347812787d40233 status=200 dur=6m15.949736335s
+t=2022-08-30T22:08:08+0200 lvl=info msg=start pg=/static/js/vendor.46a63b0dfb74468b4858.js id=3e8eb3f6a24a5efe
+t=2022-08-30T22:08:08+0200 lvl=info msg=start pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=93a5dea299fa7ed4
+t=2022-08-30T22:08:08+0200 lvl=info msg=end pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=93a5dea299fa7ed4 status=304 dur=3.021667ms
+t=2022-08-30T22:08:08+0200 lvl=info msg=start pg=/static/js/app.16e28a9160362ed56486.js id=153ee75001912c7f
+t=2022-08-30T22:08:08+0200 lvl=info msg=end pg=/static/js/app.16e28a9160362ed56486.js id=153ee75001912c7f status=304 dur=30.531355ms
+t=2022-08-30T22:08:08+0200 lvl=info msg=end pg=/static/js/vendor.46a63b0dfb74468b4858.js id=3e8eb3f6a24a5efe status=304 dur=194.618855ms
+t=2022-08-30T22:08:10+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=a01fede71ab90475
+t=2022-08-30T22:08:10+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=a01fede71ab90475 status=200 dur=3.158229ms
+t=2022-08-30T22:08:11+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=f2790d47f646f4da
+t=2022-08-30T22:11:00+0200 lvl=warn msg="failed to open private leg" id=4557b5a57d1c typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T22:12:53+0200 lvl=warn msg="failed to open private leg" id=845d165abf9c typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T22:15:05+0200 lvl=warn msg="failed to open private leg" id=09aaaee7c897 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T22:22:00+0200 lvl=warn msg="failed to open private leg" id=661187cde103 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T22:26:05+0200 lvl=warn msg="failed to open private leg" id=c988081a3a64 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T22:26:50+0200 lvl=warn msg="failed to open private leg" id=020a6b9b9645 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T22:27:41+0200 lvl=warn msg="failed to open private leg" id=5f62f38e733d typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T22:30:43+0200 lvl=warn msg="failed to open private leg" id=d47dd9b46a03 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T22:39:00+0200 lvl=warn msg="failed to open private leg" id=e7823dd24914 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T22:39:44+0200 lvl=warn msg="failed to open private leg" id=38620105dd6e typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T22:41:28+0200 lvl=warn msg="failed to open private leg" id=bdbf8b0ab651 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T22:41:38+0200 lvl=warn msg="failed to open private leg" id=d68e6e583874 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T22:43:06+0200 lvl=warn msg="failed to open private leg" id=0b91a2386b6d typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T23:17:37+0200 lvl=info msg="no configuration paths supplied"
+t=2022-08-30T23:17:37+0200 lvl=info msg="using configuration at default config path" path=/home/pi/.config/ngrok/ngrok.yml
+t=2022-08-30T23:17:37+0200 lvl=info msg="open config file" path=/home/pi/.config/ngrok/ngrok.yml err=nil
+t=2022-08-30T23:17:37+0200 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2022-08-30T23:17:37+0200 lvl=eror msg="failed to reconnect session" obj=csess id=6e8651c5b190 err="dial tcp: lookup tunnel.ngrok.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:17:38+0200 lvl=eror msg="failed to reconnect session" obj=csess id=6e8651c5b190 err="dial tcp: lookup tunnel.ngrok.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:17:38+0200 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": dial tcp: lookup update.equinox.io on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:17:38+0200 lvl=eror msg="failed to reconnect session" obj=csess id=6e8651c5b190 err="Get \"https://dns.google.com/resolve?name=tunnel.ngrok.com&type=A\": dial tcp: lookup dns.google.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:17:40+0200 lvl=eror msg="failed to reconnect session" obj=csess id=6e8651c5b190 err="Get \"https://s3.amazonaws.com/dns.ngrok.com/tunnel.json\": dial tcp: lookup s3.amazonaws.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:17:42+0200 lvl=eror msg="failed to reconnect session" obj=csess id=6e8651c5b190 err="resolved tunnel.ngrok.com has no records"
+t=2022-08-30T23:17:44+0200 lvl=eror msg="failed to reconnect session" obj=csess id=6e8651c5b190 err="dial tcp: lookup tunnel.ngrok.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:17:49+0200 lvl=eror msg="failed to reconnect session" obj=csess id=6e8651c5b190 err="Get \"https://dns.google.com/resolve?name=tunnel.ngrok.com&type=AAAA\": dial tcp: lookup dns.google.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:17:57+0200 lvl=eror msg="failed to reconnect session" obj=csess id=6e8651c5b190 err="Get \"https://s3.amazonaws.com/dns.ngrok.com/tunnel.json\": dial tcp: lookup s3.amazonaws.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:18:02+0200 lvl=info msg=start pg=/static/js/vendor.46a63b0dfb74468b4858.js id=9b112f7c2779fb8f
+t=2022-08-30T23:18:02+0200 lvl=info msg=start pg=/static/css/app.6adde81d4977beec56aa.css id=7747d2ad761b0f07
+t=2022-08-30T23:18:02+0200 lvl=info msg=start pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=7998bf01d4c84a80
+t=2022-08-30T23:18:02+0200 lvl=info msg=start pg=/static/js/app.16e28a9160362ed56486.js id=9f76017651bb2d0a
+t=2022-08-30T23:18:02+0200 lvl=info msg=end pg=/static/css/app.6adde81d4977beec56aa.css id=7747d2ad761b0f07 status=200 dur=126.755464ms
+t=2022-08-30T23:18:02+0200 lvl=info msg=end pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=7998bf01d4c84a80 status=200 dur=67.339095ms
+t=2022-08-30T23:18:02+0200 lvl=info msg=end pg=/static/js/app.16e28a9160362ed56486.js id=9f76017651bb2d0a status=200 dur=58.296008ms
+t=2022-08-30T23:18:02+0200 lvl=info msg=end pg=/static/js/vendor.46a63b0dfb74468b4858.js id=9b112f7c2779fb8f status=200 dur=214.53286ms
+t=2022-08-30T23:18:04+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=e40f1d5e69daab9b
+t=2022-08-30T23:18:04+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=e40f1d5e69daab9b status=200 dur=42.184617ms
+t=2022-08-30T23:18:04+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=7c9b92eb98c0abab
+t=2022-08-30T23:18:09+0200 lvl=eror msg="failed to reconnect session" obj=csess id=6e8651c5b190 err="resolved tunnel.ngrok.com has no records"
+t=2022-08-30T23:18:28+0200 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2022-08-30T23:18:28+0200 lvl=info msg="client session established" obj=csess id=6e8651c5b190
+t=2022-08-30T23:18:29+0200 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=//localhost:8080 url=tcp://4.tcp.eu.ngrok.io:11257
+t=2022-08-30T23:32:39+0200 lvl=warn msg="failed to open private leg" id=0261843c9002 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T23:33:38+0200 lvl=info msg="no configuration paths supplied"
+t=2022-08-30T23:33:38+0200 lvl=info msg="using configuration at default config path" path=/home/pi/.config/ngrok/ngrok.yml
+t=2022-08-30T23:33:38+0200 lvl=info msg="open config file" path=/home/pi/.config/ngrok/ngrok.yml err=nil
+t=2022-08-30T23:33:38+0200 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2022-08-30T23:33:38+0200 lvl=eror msg="failed to reconnect session" obj=csess id=f5dc4a308fc4 err="dial tcp: lookup tunnel.ngrok.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:33:38+0200 lvl=eror msg="failed to reconnect session" obj=csess id=f5dc4a308fc4 err="dial tcp: lookup tunnel.ngrok.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:33:39+0200 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": dial tcp: lookup update.equinox.io on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:33:39+0200 lvl=eror msg="failed to reconnect session" obj=csess id=f5dc4a308fc4 err="Get \"https://dns.google.com/resolve?name=tunnel.ngrok.com&type=AAAA\": dial tcp: lookup dns.google.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:33:40+0200 lvl=eror msg="failed to reconnect session" obj=csess id=f5dc4a308fc4 err="Get \"https://s3.amazonaws.com/dns.ngrok.com/tunnel.json\": dial tcp: lookup s3.amazonaws.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:33:42+0200 lvl=eror msg="failed to reconnect session" obj=csess id=f5dc4a308fc4 err="resolved tunnel.ngrok.com has no records"
+t=2022-08-30T23:33:44+0200 lvl=eror msg="failed to reconnect session" obj=csess id=f5dc4a308fc4 err="dial tcp: lookup tunnel.ngrok.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:33:47+0200 lvl=eror msg="failed to reconnect session" obj=csess id=f5dc4a308fc4 err="Get \"https://dns.google.com/resolve?name=tunnel.ngrok.com&type=AAAA\": dial tcp: lookup dns.google.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:33:52+0200 lvl=eror msg="failed to reconnect session" obj=csess id=f5dc4a308fc4 err="Get \"https://s3.amazonaws.com/dns.ngrok.com/tunnel.json\": dial tcp: lookup s3.amazonaws.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:33:52+0200 lvl=info msg=start pg=/static/js/vendor.46a63b0dfb74468b4858.js id=52e955b1e5728fb8
+t=2022-08-30T23:33:52+0200 lvl=info msg=start pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=894d4550f20159e5
+t=2022-08-30T23:33:52+0200 lvl=info msg=start pg=/static/css/app.6adde81d4977beec56aa.css id=2097a3fe911420c0
+t=2022-08-30T23:33:52+0200 lvl=info msg=start pg=/static/js/app.16e28a9160362ed56486.js id=54905512dc012d1c
+t=2022-08-30T23:33:52+0200 lvl=info msg=end pg=/static/css/app.6adde81d4977beec56aa.css id=2097a3fe911420c0 status=200 dur=134.349234ms
+t=2022-08-30T23:33:52+0200 lvl=info msg=end pg=/static/js/app.16e28a9160362ed56486.js id=54905512dc012d1c status=200 dur=101.33984ms
+t=2022-08-30T23:33:52+0200 lvl=info msg=end pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=894d4550f20159e5 status=200 dur=137.987292ms
+t=2022-08-30T23:33:52+0200 lvl=info msg=end pg=/static/js/vendor.46a63b0dfb74468b4858.js id=52e955b1e5728fb8 status=200 dur=248.321053ms
+t=2022-08-30T23:33:55+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=44561412a4ae8236
+t=2022-08-30T23:33:55+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=e3572d8182c220ac
+t=2022-08-30T23:33:55+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=44561412a4ae8236 status=200 dur=7.70752ms
+t=2022-08-30T23:33:58+0200 lvl=eror msg="failed to reconnect session" obj=csess id=f5dc4a308fc4 err="resolved tunnel.ngrok.com has no records"
+t=2022-08-30T23:34:10+0200 lvl=eror msg="failed to reconnect session" obj=csess id=f5dc4a308fc4 err="dial tcp: lookup tunnel.ngrok.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:34:24+0200 lvl=eror msg="failed to reconnect session" obj=csess id=f5dc4a308fc4 err="dial tcp: lookup tunnel.ngrok.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:34:48+0200 lvl=eror msg="failed to reconnect session" obj=csess id=f5dc4a308fc4 err="dial tcp: lookup tunnel.ngrok.com on 146.232.20.11:53: dial udp 146.232.20.11:53: connect: network is unreachable"
+t=2022-08-30T23:35:01+0200 lvl=info msg=start pg=/status id=fa320b876a763a14
+t=2022-08-30T23:35:01+0200 lvl=info msg=end pg=/status id=fa320b876a763a14 status=200 dur=2.321344ms
+t=2022-08-30T23:35:01+0200 lvl=info msg=end pg=/grpc/agent.Web/State id=e3572d8182c220ac status=200 dur=1m6.119397743s
+t=2022-08-30T23:35:01+0200 lvl=info msg=start pg=/static/css/app.6adde81d4977beec56aa.css id=a058113b7415ab9f
+t=2022-08-30T23:35:01+0200 lvl=info msg=end pg=/static/css/app.6adde81d4977beec56aa.css id=a058113b7415ab9f status=304 dur=6.558202ms
+t=2022-08-30T23:35:01+0200 lvl=info msg=start pg=/static/js/vendor.46a63b0dfb74468b4858.js id=eccbbf0227a822ae
+t=2022-08-30T23:35:01+0200 lvl=info msg=start pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=81f719dde62e1406
+t=2022-08-30T23:35:01+0200 lvl=info msg=start pg=/static/js/app.16e28a9160362ed56486.js id=dc88ede95dfa5d69
+t=2022-08-30T23:35:01+0200 lvl=info msg=end pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=81f719dde62e1406 status=304 dur=13.347393ms
+t=2022-08-30T23:35:01+0200 lvl=info msg=end pg=/static/js/app.16e28a9160362ed56486.js id=dc88ede95dfa5d69 status=304 dur=24.464325ms
+t=2022-08-30T23:35:01+0200 lvl=info msg=end pg=/static/js/vendor.46a63b0dfb74468b4858.js id=eccbbf0227a822ae status=304 dur=210.910896ms
+t=2022-08-31T13:46:21+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=0e7c2e7679a5a391
+t=2022-08-31T13:46:21+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=0e7c2e7679a5a391 status=200 dur=3.399309ms
+t=2022-08-31T13:46:21+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=31a6f775da822e2b
+t=2022-08-31T13:46:23+0200 lvl=info msg=start pg=/static/favicon.ico id=6dd70711a45feb0c
+t=2022-08-31T13:46:23+0200 lvl=info msg=end pg=/static/favicon.ico id=6dd70711a45feb0c status=200 dur=1.032027ms
+t=2022-08-31T13:46:38+0200 lvl=info msg="no configuration paths supplied"
+t=2022-08-31T13:46:38+0200 lvl=info msg="using configuration at default config path" path=/home/pi/.config/ngrok/ngrok.yml
+t=2022-08-31T13:46:38+0200 lvl=info msg="open config file" path=/home/pi/.config/ngrok/ngrok.yml err=nil
+t=2022-08-31T13:46:38+0200 lvl=warn msg="can't bind default web address, trying alternatives" obj=web addr=127.0.0.1:4040
+t=2022-08-31T13:46:38+0200 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4041
+t=2022-08-31T13:46:38+0200 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2022-08-31T13:46:38+0200 lvl=info msg="client session established" obj=csess id=de4222d9cfde
+t=2022-08-31T13:46:38+0200 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=//localhost:8080 url=tcp://2.tcp.eu.ngrok.io:19482
+t=2022-08-31T13:46:39+0200 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2022-08-31T13:46:39+0200 lvl=info msg="client session established" obj=csess id=f5dc4a308fc4
+t=2022-08-31T13:46:39+0200 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=//localhost:8080 url=tcp://0.tcp.sa.ngrok.io:16424
+t=2022-08-31T13:48:26+0200 lvl=warn msg="failed to open private leg" id=bcd453a5f507 typ=proxy privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2022-08-30T23:18:32+0200 lvl=info msg="no configuration paths supplied"
+t=2022-08-30T23:18:32+0200 lvl=info msg="using configuration at default config path" path=/home/pi/.config/ngrok/ngrok.yml
+t=2022-08-30T23:18:32+0200 lvl=info msg="open config file" path=/home/pi/.config/ngrok/ngrok.yml err=nil
+t=2022-08-30T23:18:32+0200 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2022-08-30T23:18:38+0200 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2022-08-30T23:18:38+0200 lvl=info msg="client session established" obj=csess id=230eaf78c950
+t=2022-08-30T23:18:38+0200 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=//localhost:8080 url=tcp://7.tcp.eu.ngrok.io:10970
+t=2022-08-30T23:18:57+0200 lvl=info msg=start pg=/ id=0126e2977da89ef9
+t=2022-08-30T23:18:57+0200 lvl=info msg=end pg=/ id=0126e2977da89ef9 status=302 dur=539.164µs
+t=2022-08-30T23:18:57+0200 lvl=info msg=start pg=/inspect/http id=d26c657d43dabd27
+t=2022-08-30T23:18:57+0200 lvl=info msg=end pg=/inspect/http id=d26c657d43dabd27 status=200 dur=1.38541ms
+t=2022-08-30T23:18:59+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=0f7faf0b6c8c56f8
+t=2022-08-30T23:18:59+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=0f7faf0b6c8c56f8 status=200 dur=6.565285ms
+t=2022-08-30T23:18:59+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=c22af8216d8324c8
+t=2022-08-31T13:53:16+0200 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2022-08-31T13:53:16+0200 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2022-08-31T13:54:38+0200 lvl=info msg="no configuration paths supplied"
+t=2022-08-31T13:54:38+0200 lvl=info msg="using configuration at default config path" path=/home/pi/.config/ngrok/ngrok.yml
+t=2022-08-31T13:54:38+0200 lvl=info msg="open config file" path=/home/pi/.config/ngrok/ngrok.yml err=nil
+t=2022-08-31T13:54:38+0200 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2022-08-31T13:54:39+0200 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2022-08-31T13:54:39+0200 lvl=info msg="client session established" obj=csess id=3c2c728ccfe3
+t=2022-08-31T13:54:39+0200 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=//localhost:22 url=tcp://2.tcp.eu.ngrok.io:18745
+t=2022-08-31T13:54:40+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=64ea492efd4e6529
+t=2022-08-31T13:54:43+0200 lvl=info msg=start pg=/status id=d6edf019150c0438
+t=2022-08-31T13:54:43+0200 lvl=info msg=end pg=/status id=d6edf019150c0438 status=200 dur=1.694939ms
+t=2022-08-31T13:54:43+0200 lvl=info msg=start pg=/static/css/app.6adde81d4977beec56aa.css id=ed287d4f40536cc0
+t=2022-08-31T13:54:43+0200 lvl=info msg=start pg=/static/js/vendor.46a63b0dfb74468b4858.js id=4119b2278b10afd0
+t=2022-08-31T13:54:43+0200 lvl=info msg=start pg=/static/js/app.16e28a9160362ed56486.js id=e3a08cabd4407584
+t=2022-08-31T13:54:43+0200 lvl=info msg=start pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=bb7aa2a5554e18df
+t=2022-08-31T13:54:43+0200 lvl=info msg=end pg=/static/css/app.6adde81d4977beec56aa.css id=ed287d4f40536cc0 status=200 dur=67.833416ms
+t=2022-08-31T13:54:43+0200 lvl=info msg=end pg=/static/js/rpx.c6caf80052f2d1f7c5e9.js id=bb7aa2a5554e18df status=200 dur=3.802221ms
+t=2022-08-31T13:54:43+0200 lvl=info msg=end pg=/static/js/app.16e28a9160362ed56486.js id=e3a08cabd4407584 status=200 dur=39.114703ms
+t=2022-08-31T13:54:43+0200 lvl=info msg=end pg=/grpc/agent.Web/State id=64ea492efd4e6529 status=200 dur=3.140934194s
+t=2022-08-31T13:54:43+0200 lvl=info msg=end pg=/static/js/vendor.46a63b0dfb74468b4858.js id=4119b2278b10afd0 status=200 dur=203.769673ms
+t=2022-08-31T13:54:44+0200 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=3964564385456ffd
+t=2022-08-31T13:54:44+0200 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=3964564385456ffd status=200 dur=8.177044ms
+t=2022-08-31T13:54:44+0200 lvl=info msg=start pg=/grpc/agent.Web/State id=bf0979a7fafed7fd
+t=2022-08-31T13:54:44+0200 lvl=info msg=start pg=/static/favicon.ico id=12c3828a1c8542c8
+t=2022-08-31T13:54:44+0200 lvl=info msg=end pg=/static/favicon.ico id=12c3828a1c8542c8 status=200 dur=1.394628ms
+t=2022-08-31T13:56:08+0200 lvl=info msg="join connections" obj=join id=aa9da1bae2fd l=[::1]:22 r=146.232.184.20:53527
+t=2022-08-31T14:20:42+0200 lvl=info msg="join connections" obj=join id=c924f557097a l=[::1]:22 r=146.232.184.20:62581
+t=2022-08-31T14:37:15+0200 lvl=info msg="join connections" obj=join id=85fb4c6bb286 l=[::1]:22 r=146.232.184.20:61193
+t=2022-08-31T14:49:41+0200 lvl=info msg="join connections" obj=join id=9b7bd660f77a l=[::1]:22 r=146.232.184.20:61311
